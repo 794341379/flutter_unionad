@@ -144,6 +144,10 @@ object TTAdManagerHolder {
             override fun alist(): Boolean {
                 return alist
             }
+
+            override fun isCanUseAndroidId(): Boolean {
+                return false
+            }
         }
     }
 }
